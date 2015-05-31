@@ -7,7 +7,7 @@
     </div>
 
     <!---Game 1-->
-    <div class="col-lg-10">
+    <div class="col-lg-15">
         <div class="well">
             <h2>Game 1</h2>
             Result:
@@ -27,7 +27,7 @@
                 CssClass="alert alert-danger"
                 ControlToValidate="txtScore1"
                 Type="Double" Display="Dynamic">
-            </asp:RangeValidator><br />
+            </asp:RangeValidator><br /><br />
             Allowed:
     <asp:TextBox ID="txtAllowed1" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please enter a value."
@@ -39,7 +39,7 @@
                 CssClass="alert alert-danger"
                 ControlToValidate="txtAllowed1"
                 Type="Double" Display="Dynamic">
-            </asp:RangeValidator><br />
+            </asp:RangeValidator><br /><br />
             Spectators:
     <asp:TextBox ID="txtSpectators1" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please enter a value."
