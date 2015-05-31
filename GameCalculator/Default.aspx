@@ -230,10 +230,12 @@
         </div>
     </div>
 
+    <!---Summary Button-->
     <div style="text-align: center;">
         <asp:Button class="btn btn-primary" ID="btnSummary" runat="server" Text="Summary" OnClick="btnSummary_Click" />
     </div>
 
+    <!---Results-->
     <h3>Results:</h3>
     Wins: <asp:Label ID="lblWins" runat="server"></asp:Label><br />
     Losses: <asp:Label ID="lblLosses" runat="server"></asp:Label><br />
