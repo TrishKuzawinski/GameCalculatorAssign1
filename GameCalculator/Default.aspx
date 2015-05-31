@@ -9,7 +9,7 @@
     <!---Game 1-->
     <div class="col-lg-7">
         <div class="well">
-            <h2>Game 1</h2>
+            <h2>Game 1</h2><br />
             Result: 
             <asp:RadioButtonList ID="rblWinLose1" runat="server">
                 <asp:ListItem>Win</asp:ListItem>
