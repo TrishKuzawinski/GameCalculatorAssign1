@@ -2,11 +2,12 @@
 
 <asp:Content ID="BodyContent" ContentPlaceHolderID="MainContent" runat="server">
 
-    <div class="jumbotron">
+    <div>
         <h1>Game Calculator</h1>
     </div>
 
     <!---Game 1-->
+    <div class="jumbotron">
     <h2>Game 1</h2>
     Result:
     <asp:RadioButtonList ID="rblWinLose1" runat="server">
@@ -19,7 +20,7 @@
     <asp:RequiredFieldValidator runat="server" ErrorMessage="Please enter a value."
         CssClass="alert alert-danger" ControlToValidate="txtScore1"
         Display="Dynamic">
-    </asp:RequiredFieldValidator><br />
+    </asp:RequiredFieldValidator>
     <asp:RangeValidator ID="RangeValidator1" runat="server" ErrorMessage="Enter a numeric value greater than zero"
         MinimumValue="0.01" MaximumValue="99999999"
         CssClass="alert alert-danger"
@@ -27,7 +28,7 @@
         Type="Double" Display="Dynamic">
     </asp:RangeValidator>
     Allowed:
-    <asp:TextBox ID="txtAllowed1" runat="server"></asp:TextBox><br />
+    <asp:TextBox ID="txtAllowed1" runat="server"></asp:TextBox>
     <asp:RequiredFieldValidator runat="server" ErrorMessage="Please enter a value."
         CssClass="alert alert-danger" ControlToValidate="txtAllowed1"
         Display="Dynamic">
@@ -50,6 +51,7 @@
         ControlToValidate="txtSpectators1"
         Type="Double" Display="Dynamic">
     </asp:RangeValidator>
+        </div>
 
     <!---Game 2-->
     <h2>Game 2</h2>
