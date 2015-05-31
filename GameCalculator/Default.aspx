@@ -10,10 +10,11 @@
     <div class="col-lg-7">
         <div class="well">
             <h2>Game 1</h2>
-            Result: <asp:RadioButtonList ID="rblWinLose1" runat="server">
-                        <asp:ListItem>Win</asp:ListItem>
-                        <asp:ListItem>Loss</asp:ListItem>
-                    </asp:RadioButtonList>
+            Result: 
+            <asp:RadioButtonList ID="rblWinLose1" runat="server">
+                <asp:ListItem>Win</asp:ListItem>
+                <asp:ListItem>Loss</asp:ListItem>
+            </asp:RadioButtonList>
             Scored:
     <asp:TextBox ID="txtScore1" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please enter a value."
@@ -204,5 +205,7 @@
             </asp:RangeValidator>
         </div>
     </div>
+
+    <asp:Button class="btn btn-primary" ID="btnSummary" runat="server" Text="Summary" />
 
 </asp:Content>
