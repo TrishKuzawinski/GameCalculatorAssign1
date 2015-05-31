@@ -7,7 +7,7 @@
     </div>
 
     <!---Game 1-->
-    <div class="col-lg-15">
+    <div class="col-lg-8">
         <div class="well">
             <h2>Game 1</h2>
             Result:
