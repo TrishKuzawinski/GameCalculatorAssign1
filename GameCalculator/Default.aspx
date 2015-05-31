@@ -12,6 +12,15 @@
             <h2>Game 1</h2>
             <br />
             Result:
+            <div ID="WinLose1">
+               <asp:RadioButton ID="rbWin" runat="server" Text="Win" />
+                <asp:RadioButton ID="rbLoss" runat="server" Text="Loss" />
+            </div> 
+            <asp:RequiredFieldValidator runat="server" ErrorMessage="Please choose an option."
+                CssClass="alert alert-danger" ControlToValidate="WinLose1"
+                Display="Dynamic">
+            </asp:RequiredFieldValidator><br />
+            <br /> -->
             Scored:
     <asp:TextBox ID="txtScore1" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please enter a value."
