@@ -25,10 +25,12 @@ namespace GameCalculator
 
             foreach (ListItem item in btnlstWinLose1.Items)
             {
+                Double winsTotal = Convert.ToDouble(btnlstWinLose1.SelectedItem.Value) + Convert.ToDouble(btnlstWinLose2.SelectedItem.Value) +
+                                   Convert.ToDouble(btnlstWinLose3.SelectedItem.Value) + Convert.ToDouble(btnlstWinLose4.SelectedItem.Value);
+
                 if (item.Selected == true)
                 {
-                    lblWins.Text += System.Convert.ToInt32(btnlstWinLose1.SelectedItem.Value) + System.Convert.ToInt32(btnlstWinLose2.SelectedItem.Value) +
-                                    System.Convert.ToInt32(btnlstWinLose3.SelectedItem.Value) + System.Convert.ToInt32(btnlstWinLose4.SelectedItem.Value);
+                    lblWins.Text = winsTotal.ToString("");
                 }
             }
         }
