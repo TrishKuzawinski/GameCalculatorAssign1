@@ -39,8 +39,62 @@ namespace GameCalculator
                 totalLoss++;
 
                 lblLosses.Text = totalLoss.ToString("");
+            }
 
 
+            if (btnlstWinLose2.SelectedValue == "1")
+            {
+                Double totalWins = 1;
+
+                totalWins++;
+
+                lblWins.Text = totalWins.ToString("");
+
+            }
+            else if (btnlstWinLose2.SelectedValue == "0")
+            {
+                Double totalLoss = 1;
+
+                totalLoss++;
+
+                lblLosses.Text = totalLoss.ToString("");
+            }
+
+            if (btnlstWinLose3.SelectedValue == "1")
+            {
+                Double totalWins = 1;
+
+                totalWins++;
+
+                lblWins.Text = totalWins.ToString("");
+
+            }
+            else if (btnlstWinLose3.SelectedValue == "0")
+            {
+                Double totalLoss = 1;
+
+                totalLoss++;
+
+                lblLosses.Text = totalLoss.ToString("");
+            }
+
+
+            if (btnlstWinLose4.SelectedValue == "1")
+            {
+                Double totalWins = 1;
+
+                totalWins++;
+
+                lblWins.Text = totalWins.ToString("");
+
+            }
+            else if (btnlstWinLose4.SelectedValue == "0")
+            {
+                Double totalLoss = 1;
+
+                totalLoss++;
+
+                lblLosses.Text = totalLoss.ToString("");
             }
 
         }
