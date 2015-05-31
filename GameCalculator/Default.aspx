@@ -12,9 +12,15 @@
             <h2>Game 1</h2>
             <br />
             Result:
-               <asp:RadioButton ID="rbWin" runat="server" Text="Win" />
-                <asp:RadioButton ID="rbLoss" runat="server" Text="Loss" />
-            <br /> 
+    <asp:RadioButtonList ID="btnlstWinLose1" runat="server">
+        <asp:ListItem Value="1">Win</asp:ListItem>
+        <asp:ListItem Value="2">Loss</asp:ListItem>
+    </asp:RadioButtonList><br />
+            <asp:RequiredFieldValidator runat="server" ErrorMessage="Please choose an option."
+                CssClass="alert alert-danger" ControlToValidate="btnlstWinLose1"
+                Display="Dynamic">
+            </asp:RequiredFieldValidator><br />
+            <br />
             Scored:
     <asp:TextBox ID="txtScore1" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please enter a value."
@@ -231,12 +237,20 @@
 
     <!---Results-->
     <h3>Results:</h3>
-    Wins: <asp:Label ID="lblWins" runat="server"></asp:Label><br />
-    Losses: <asp:Label ID="lblLosses" runat="server"></asp:Label><br />
-    Winning %: <asp:Label ID="lblWinning" runat="server"></asp:Label><br />
-    Points Scored: <asp:Label ID="lblPointsScored" runat="server"></asp:Label><br />
-    Points Allowed: <asp:Label ID="lblPointsAllowed" runat="server"></asp:Label><br />
-    Point Differential: <asp:Label ID="lblPointDifferential" runat="server"></asp:Label><br />
-    Total Attendance: <asp:Label ID="lblTotalAttendance" runat="server"></asp:Label><br />
-    Average Attendance: <asp:Label ID="lblAverageAttendance" runat="server"></asp:Label>
+    Wins:
+    <asp:Label ID="lblWins" runat="server"></asp:Label><br />
+    Losses:
+    <asp:Label ID="lblLosses" runat="server"></asp:Label><br />
+    Winning %:
+    <asp:Label ID="lblWinning" runat="server"></asp:Label><br />
+    Points Scored:
+    <asp:Label ID="lblPointsScored" runat="server"></asp:Label><br />
+    Points Allowed:
+    <asp:Label ID="lblPointsAllowed" runat="server"></asp:Label><br />
+    Point Differential:
+    <asp:Label ID="lblPointDifferential" runat="server"></asp:Label><br />
+    Total Attendance:
+    <asp:Label ID="lblTotalAttendance" runat="server"></asp:Label><br />
+    Average Attendance:
+    <asp:Label ID="lblAverageAttendance" runat="server"></asp:Label>
 </asp:Content>
