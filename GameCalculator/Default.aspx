@@ -11,11 +11,13 @@
         <div class="well">
             <h2>Game 1</h2>
             <br />
-            Result: 
-            <asp:RadioButton ID="rbWin" runat="server" Text="Win" />
-            <asp:RadioButton ID="rbLoss" runat="server" Text="Loss" />
+            Result:
+            <table ID="tbWinLose1">
+                <asp:RadioButton ID="rbWin" runat="server" Text="Win" />
+                <asp:RadioButton ID="rbLoss" runat="server" Text="Loss" />
+            </table> 
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please choose an option."
-                CssClass="alert alert-danger" ControlToValidate="btnlstWinLose1"
+                CssClass="alert alert-danger" ControlToValidate="tbWinLose1"
                 Display="Dynamic">
             </asp:RequiredFieldValidator><br />
             <br />
