@@ -25,7 +25,7 @@ namespace GameCalculator
 
             if(btnlstWinLose1.SelectedValue == "1")
             {
-                Double totalWins = 1;
+                Double totalWins = 0;
 
                 totalWins++;
 
@@ -34,7 +34,7 @@ namespace GameCalculator
             }
             else if (btnlstWinLose1.SelectedValue == "0")
             {
-                Double totalLoss = 1;
+                Double totalLoss = 0;
 
                 totalLoss++;
 
@@ -44,7 +44,7 @@ namespace GameCalculator
 
             if (btnlstWinLose2.SelectedValue == "1")
             {
-                Double totalWins = 1;
+                Double totalWins = 0;
 
                 totalWins++;
 
@@ -53,7 +53,7 @@ namespace GameCalculator
             }
             else if (btnlstWinLose2.SelectedValue == "0")
             {
-                Double totalLoss = 1;
+                Double totalLoss = 0;
 
                 totalLoss++;
 
@@ -62,7 +62,7 @@ namespace GameCalculator
 
             if (btnlstWinLose3.SelectedValue == "1")
             {
-                Double totalWins = 1;
+                Double totalWins = 0;
 
                 totalWins++;
 
@@ -71,7 +71,7 @@ namespace GameCalculator
             }
             else if (btnlstWinLose3.SelectedValue == "0")
             {
-                Double totalLoss = 1;
+                Double totalLoss = 0;
 
                 totalLoss++;
 
@@ -81,7 +81,7 @@ namespace GameCalculator
 
             if (btnlstWinLose4.SelectedValue == "1")
             {
-                Double totalWins = 1;
+                Double totalWins = 0;
 
                 totalWins++;
 
@@ -90,7 +90,7 @@ namespace GameCalculator
             }
             else if (btnlstWinLose4.SelectedValue == "0")
             {
-                Double totalLoss = 1;
+                Double totalLoss = 0;
 
                 totalLoss++;
 
