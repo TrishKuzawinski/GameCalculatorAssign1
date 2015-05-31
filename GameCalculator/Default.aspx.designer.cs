@@ -13,13 +13,13 @@ namespace GameCalculator {
     public partial class _Default {
         
         /// <summary>
-        /// rblWinLose1 control.
+        /// btnlstWinLose1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList rblWinLose1;
+        protected global::System.Web.UI.WebControls.RadioButtonList btnlstWinLose1;
         
         /// <summary>
         /// txtScore1 control.
@@ -76,13 +76,13 @@ namespace GameCalculator {
         protected global::System.Web.UI.WebControls.RangeValidator RangeValidator3;
         
         /// <summary>
-        /// rblWinLose2 control.
+        /// btnlstWinLose2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList rblWinLose2;
+        protected global::System.Web.UI.WebControls.RadioButtonList btnlstWinLose2;
         
         /// <summary>
         /// txtScore2 control.
@@ -139,13 +139,13 @@ namespace GameCalculator {
         protected global::System.Web.UI.WebControls.RangeValidator RangeValidator6;
         
         /// <summary>
-        /// rblWinLose3 control.
+        /// btnlstWinLose3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList rblWinLose3;
+        protected global::System.Web.UI.WebControls.RadioButtonList btnlstWinLose3;
         
         /// <summary>
         /// txtScore3 control.
@@ -202,13 +202,13 @@ namespace GameCalculator {
         protected global::System.Web.UI.WebControls.RangeValidator RangeValidator9;
         
         /// <summary>
-        /// rblWinLose4 control.
+        /// btnlstWinLose4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RadioButtonList rblWinLose4;
+        protected global::System.Web.UI.WebControls.RadioButtonList btnlstWinLose4;
         
         /// <summary>
         /// txtScore4 control.
