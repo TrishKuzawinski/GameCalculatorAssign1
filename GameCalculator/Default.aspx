@@ -231,7 +231,7 @@
     </div>
 
     <div style="text-align: center;">
-        <asp:Button class="btn btn-primary" ID="btnSummary" runat="server" Text="Summary" />
+        <asp:Button class="btn btn-primary" ID="btnSummary" runat="server" Text="Summary" OnClick="btnSummary_Click" />
     </div>
 
     <h3>Results:</h3>

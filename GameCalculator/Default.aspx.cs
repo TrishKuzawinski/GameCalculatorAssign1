@@ -13,5 +13,10 @@ namespace GameCalculator
         {
 
         }
+
+        protected void btnSummary_Click(object sender, EventArgs e)
+        {
+            lblPointsScored.Text = txtScore1.Text + txtScore2.Text + txtScore3.Text + txtScore4.Text;
+        }
     }
 }
