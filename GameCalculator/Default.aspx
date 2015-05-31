@@ -27,19 +27,19 @@
                 CssClass="alert alert-danger"
                 ControlToValidate="txtScore1"
                 Type="Double" Display="Dynamic">
-            </asp:RangeValidator>
+            </asp:RangeValidator><br />
             Allowed:
     <asp:TextBox ID="txtAllowed1" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please enter a value."
                 CssClass="alert alert-danger" ControlToValidate="txtAllowed1"
                 Display="Dynamic">
-            </asp:RequiredFieldValidator><br />
+            </asp:RequiredFieldValidator>
             <asp:RangeValidator ID="RangeValidator2" runat="server" ErrorMessage="Enter a numeric value greater than zero"
                 MinimumValue="0.01" MaximumValue="99999999"
                 CssClass="alert alert-danger"
                 ControlToValidate="txtAllowed1"
                 Type="Double" Display="Dynamic">
-            </asp:RangeValidator>
+            </asp:RangeValidator><br />
             Spectators:
     <asp:TextBox ID="txtSpectators1" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please enter a value."
