@@ -13,8 +13,8 @@
             <br />
             Result:
     <asp:RadioButtonList ID="btnlstWinLose1" runat="server">
-        <asp:ListItem Value="1">Win</asp:ListItem>
-        <asp:ListItem Value="2">Loss</asp:ListItem>
+        <asp:ListItem Text="Win">Win</asp:ListItem>
+        <asp:ListItem Text="Loss">Loss</asp:ListItem>
     </asp:RadioButtonList><br />
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please choose an option."
                 CssClass="alert alert-danger" ControlToValidate="btnlstWinLose1"
@@ -69,8 +69,8 @@
             <br />
             Result:
     <asp:RadioButtonList ID="btnlstWinLose2" runat="server">
-        <asp:ListItem Value="1">Win</asp:ListItem>
-        <asp:ListItem Value="2">Loss</asp:ListItem>
+        <asp:ListItem Text="Win">Win</asp:ListItem>
+        <asp:ListItem Text="Loss">Loss</asp:ListItem>
     </asp:RadioButtonList><br />
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please choose an option."
                 CssClass="alert alert-danger" ControlToValidate="btnlstWinLose2"
@@ -125,8 +125,8 @@
             <br />
             Result:
     <asp:RadioButtonList ID="btnlstWinLose3" runat="server">
-        <asp:ListItem Value="1">Win</asp:ListItem>
-        <asp:ListItem Value="2">Loss</asp:ListItem>
+        <asp:ListItem Text="Win">Win</asp:ListItem>
+        <asp:ListItem Text="Loss">Loss</asp:ListItem>
     </asp:RadioButtonList><br />
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please choose an option."
                 CssClass="alert alert-danger" ControlToValidate="btnlstWinLose3"
@@ -181,8 +181,8 @@
             <br />
             Result:
     <asp:RadioButtonList ID="btnlstWinLose4" runat="server">
-        <asp:ListItem Value="1">Win</asp:ListItem>
-        <asp:ListItem Value="2">Loss</asp:ListItem>
+        <asp:ListItem Text="Win">Win</asp:ListItem>
+        <asp:ListItem Text="Loss">Loss</asp:ListItem>
     </asp:RadioButtonList><br />
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please choose an option."
                 CssClass="alert alert-danger" ControlToValidate="btnlstWinLose4"
