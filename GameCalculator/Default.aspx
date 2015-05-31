@@ -235,12 +235,12 @@
     </div>
 
     <h3>Results:</h3>
-    Wins: <asp:Label ID="lblWins" runat="server"></asp:Label>
-    Losses: <asp:Label ID="lblLosses" runat="server"></asp:Label>
-    Winning %: <asp:Label ID="lblWinning" runat="server"></asp:Label>
-    Points Scored: <asp:Label ID="lblPointsScored" runat="server"></asp:Label>
-    Points Allowed: <asp:Label ID="lblPointsAllowed" runat="server"></asp:Label>
-    Point Differential: <asp:Label ID="lblPointDifferential" runat="server"></asp:Label>
-    Total Attendance: <asp:Label ID="lblTotalAttendance" runat="server"></asp:Label>
+    Wins: <asp:Label ID="lblWins" runat="server"></asp:Label><br />
+    Losses: <asp:Label ID="lblLosses" runat="server"></asp:Label><br />
+    Winning %: <asp:Label ID="lblWinning" runat="server"></asp:Label><br />
+    Points Scored: <asp:Label ID="lblPointsScored" runat="server"></asp:Label><br />
+    Points Allowed: <asp:Label ID="lblPointsAllowed" runat="server"></asp:Label><br />
+    Point Differential: <asp:Label ID="lblPointDifferential" runat="server"></asp:Label><br />
+    Total Attendance: <asp:Label ID="lblTotalAttendance" runat="server"></asp:Label><br />
     Average Attendance: <asp:Label ID="lblAverageAttendance" runat="server"></asp:Label>
 </asp:Content>
