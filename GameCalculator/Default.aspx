@@ -234,4 +234,6 @@
         <asp:Button class="btn btn-primary" ID="btnSummary" runat="server" Text="Summary" />
     </div>
 
+    <h3>Results:</h3>
+
 </asp:Content>
