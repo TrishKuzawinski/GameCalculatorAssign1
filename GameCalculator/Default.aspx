@@ -7,7 +7,7 @@
     </div>
 
     <!---Game 1-->
-    <div class="col-sm-5 col-md-5">
+    <div class="col-md-3">
         <div class="well">
             <h2>Game 1</h2>
             Result:
@@ -56,7 +56,7 @@
     </div>
 
     <!---Game 2-->
-    <div class="col-sm-5 col-md-5">
+    <div class="col-md-3">
         <div class="well">
             <h2>Game 2</h2>
             Result:
@@ -104,7 +104,7 @@
     </div>
 
     <!---Game 3-->
-    <div class="col-sm-5 col-md-5">
+    <div class="col-md-3">
         <div class="well">
             <h2>Game 3</h2>
             Result:
