@@ -10,15 +10,15 @@
     <div class="col-lg-7">
         <div class="well">
             <h2>Game 1</h2>
-                                   <asp:RequiredFieldValidator runat="server" ErrorMessage="Please choose an option."
-                CssClass="alert alert-danger" ControlToValidate="rblWinLose1"
-                Display="Dynamic">
-            </asp:RequiredFieldValidator><br />
             Result: 
             <asp:RadioButtonList ID="rblWinLose1" runat="server">
                 <asp:ListItem>Win</asp:ListItem>
                 <asp:ListItem>Loss</asp:ListItem>
             </asp:RadioButtonList>
+                                               <asp:RequiredFieldValidator runat="server" ErrorMessage="Please choose an option."
+                CssClass="alert alert-danger" ControlToValidate="rblWinLose1"
+                Display="Dynamic">
+            </asp:RequiredFieldValidator><br />
             Scored:
     <asp:TextBox ID="txtScore1" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please enter a value."
