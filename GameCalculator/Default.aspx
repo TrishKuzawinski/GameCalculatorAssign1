@@ -16,7 +16,7 @@
         <asp:ListItem>Loss</asp:ListItem>
     </asp:RadioButtonList>
             Scored:
-    <asp:TextBox ID="txtScore1" runat="server"></asp:TextBox><br /><br />
+    <asp:TextBox ID="txtScore1" runat="server"></asp:TextBox><br />
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please enter a value."
                 CssClass="alert alert-danger" ControlToValidate="txtScore1"
                 Display="Dynamic">
@@ -28,7 +28,7 @@
                 Type="Double" Display="Dynamic">
             </asp:RangeValidator>
             Allowed:
-    <asp:TextBox ID="txtAllowed1" runat="server"></asp:TextBox><br /><br />
+    <asp:TextBox ID="txtAllowed1" runat="server"></asp:TextBox><br />
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please enter a value."
                 CssClass="alert alert-danger" ControlToValidate="txtAllowed1"
                 Display="Dynamic">
