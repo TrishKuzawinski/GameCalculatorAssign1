@@ -25,59 +25,59 @@ namespace GameCalculator
 
             if (btnlstWinLose1.SelectedItem.Text == "Win")
             {
-                Double totalWins = Convert.ToDouble(btnlstWinLose1.SelectedItem) + Convert.ToDouble(btnlstWinLose2.SelectedItem) +
-                                   Convert.ToDouble(btnlstWinLose3.SelectedItem) + Convert.ToDouble(btnlstWinLose4.SelectedItem);
-                lblWins.Text = totalWins.ToString("");
+                String totalWins = Convert.ToString(btnlstWinLose1.SelectedItem) + Convert.ToString(btnlstWinLose2.SelectedItem) +
+                                   Convert.ToString(btnlstWinLose3.SelectedItem) + Convert.ToString(btnlstWinLose4.SelectedItem);
+                lblWins.Text = totalWins;
             }
             else if (btnlstWinLose1.SelectedItem.Text == "Loss")
             {
-                Double totalLosses = Convert.ToDouble(btnlstWinLose1.SelectedItem) + Convert.ToDouble(btnlstWinLose2.SelectedItem) +
-                                     Convert.ToDouble(btnlstWinLose3.SelectedItem) + Convert.ToDouble(btnlstWinLose4.SelectedItem);
-                lblLosses.Text = totalLosses.ToString("");
+                String totalLosses = Convert.ToString(btnlstWinLose1.SelectedItem) + Convert.ToString(btnlstWinLose2.SelectedItem) +
+                                     Convert.ToString(btnlstWinLose3.SelectedItem) + Convert.ToString(btnlstWinLose4.SelectedItem);
+                lblLosses.Text = totalLosses;
             }
 
 
             if (btnlstWinLose2.SelectedItem.Text == "Win")
             {
-                Double totalWins = Convert.ToDouble(btnlstWinLose1.SelectedItem) + Convert.ToDouble(btnlstWinLose2.SelectedItem) +
-                                   Convert.ToDouble(btnlstWinLose3.SelectedItem) + Convert.ToDouble(btnlstWinLose4.SelectedItem);
-                lblWins.Text = totalWins.ToString("");
+                String totalWins = Convert.ToString(btnlstWinLose1.SelectedItem) + Convert.ToString(btnlstWinLose2.SelectedItem) +
+                                   Convert.ToString(btnlstWinLose3.SelectedItem) + Convert.ToString(btnlstWinLose4.SelectedItem);
+                lblWins.Text = totalWins;
             }
             else if (btnlstWinLose2.SelectedItem.Text == "Loss")
             {
-                Double totalLosses = Convert.ToDouble(btnlstWinLose1.SelectedItem) + Convert.ToDouble(btnlstWinLose2.SelectedItem) +
-                                     Convert.ToDouble(btnlstWinLose3.SelectedItem) + Convert.ToDouble(btnlstWinLose4.SelectedItem);
-                lblLosses.Text = totalLosses.ToString("");
+                String totalLosses = Convert.ToString(btnlstWinLose1.SelectedItem) + Convert.ToString(btnlstWinLose2.SelectedItem) +
+                                     Convert.ToString(btnlstWinLose3.SelectedItem) + Convert.ToString(btnlstWinLose4.SelectedItem);
+                lblLosses.Text = totalLosses;
             }
 
 
 
             if (btnlstWinLose3.SelectedItem.Text == "Win")
             {
-                Double totalWins = Convert.ToDouble(btnlstWinLose1.SelectedItem) + Convert.ToDouble(btnlstWinLose2.SelectedItem) +
-                                   Convert.ToDouble(btnlstWinLose3.SelectedItem) + Convert.ToDouble(btnlstWinLose4.SelectedItem);
-                lblWins.Text = totalWins.ToString("");
+                String totalWins = Convert.ToString(btnlstWinLose1.SelectedItem) + Convert.ToString(btnlstWinLose2.SelectedItem) +
+                                   Convert.ToString(btnlstWinLose3.SelectedItem) + Convert.ToString(btnlstWinLose4.SelectedItem);
+                lblWins.Text = totalWins;
             }
             else if (btnlstWinLose3.SelectedItem.Text == "Loss")
             {
-                Double totalLosses = Convert.ToDouble(btnlstWinLose1.SelectedItem) + Convert.ToDouble(btnlstWinLose2.SelectedItem) +
-                                     Convert.ToDouble(btnlstWinLose3.SelectedItem) + Convert.ToDouble(btnlstWinLose4.SelectedItem);
-                lblLosses.Text = totalLosses.ToString("");
+                String totalLosses = Convert.ToString(btnlstWinLose1.SelectedItem) + Convert.ToString(btnlstWinLose2.SelectedItem) +
+                                     Convert.ToString(btnlstWinLose3.SelectedItem) + Convert.ToString(btnlstWinLose4.SelectedItem);
+                lblLosses.Text = totalLosses;
             }
 
 
 
             if (btnlstWinLose4.SelectedItem.Text == "Win")
             {
-                Double totalWins = Convert.ToDouble(btnlstWinLose1.SelectedItem) + Convert.ToDouble(btnlstWinLose2.SelectedItem) +
-                                   Convert.ToDouble(btnlstWinLose3.SelectedItem) + Convert.ToDouble(btnlstWinLose4.SelectedItem);
-                lblWins.Text = totalWins.ToString("");
+                String totalWins = Convert.ToString(btnlstWinLose1.SelectedItem) + Convert.ToString(btnlstWinLose2.SelectedItem) +
+                                   Convert.ToString(btnlstWinLose3.SelectedItem) + Convert.ToString(btnlstWinLose4.SelectedItem);
+                lblWins.Text = totalWins;
             }
             else if (btnlstWinLose4.SelectedItem.Text == "Loss")
             {
-                Double totalLosses = Convert.ToDouble(btnlstWinLose1.SelectedItem) + Convert.ToDouble(btnlstWinLose2.SelectedItem) +
-                                     Convert.ToDouble(btnlstWinLose3.SelectedItem) + Convert.ToDouble(btnlstWinLose4.SelectedItem);
-                lblLosses.Text = totalLosses.ToString("");
+                String totalLosses = Convert.ToString(btnlstWinLose1.SelectedItem) + Convert.ToString(btnlstWinLose2.SelectedItem) +
+                                     Convert.ToString(btnlstWinLose3.SelectedItem) + Convert.ToString(btnlstWinLose4.SelectedItem);
+                lblLosses.Text = totalLosses;
             }
 
         }
