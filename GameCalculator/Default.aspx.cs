@@ -23,11 +23,12 @@ namespace GameCalculator
             Double spectatorsTotal = Convert.ToDouble(txtSpectators1.Text) + Convert.ToDouble(txtSpectators2.Text) + Convert.ToDouble(txtSpectators3.Text) + Convert.ToDouble(txtSpectators4.Text);
             lblTotalAttendance.Text = spectatorsTotal.ToString("");
 
-            foreach (ListItem item in btnlst.Items)
+            foreach (ListItem item in btnlstWinLose1.Items)
             {
                 if (item.Selected == true)
                 {
-                    lblEducationDisplay.Text = item.Text + " ";
+                    lblWins.Text += System.Convert.ToInt32(btnlstWinLose1.SelectedItem.Value) + System.Convert.ToInt32(btnlstWinLose2.SelectedItem.Value) +
+                                    System.Convert.ToInt32(btnlstWinLose3.SelectedItem.Value) + System.Convert.ToInt32(btnlstWinLose4.SelectedItem.Value);
                 }
             }
         }
