@@ -71,7 +71,7 @@
     <asp:RadioButtonList ID="rblWinLose2" runat="server">
         <asp:ListItem>Win</asp:ListItem>
         <asp:ListItem>Loss</asp:ListItem>
-    </asp:RadioButtonList>
+    </asp:RadioButtonList><br />
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please choose an option."
                 CssClass="alert alert-danger" ControlToValidate="rblWinLose2"
                 Display="Dynamic">
@@ -127,7 +127,7 @@
     <asp:RadioButtonList ID="rblWinLose3" runat="server">
         <asp:ListItem>Win</asp:ListItem>
         <asp:ListItem>Loss</asp:ListItem>
-    </asp:RadioButtonList>
+    </asp:RadioButtonList><br />
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please choose an option."
                 CssClass="alert alert-danger" ControlToValidate="rblWinLose3"
                 Display="Dynamic">
@@ -183,7 +183,7 @@
     <asp:RadioButtonList ID="rblWinLose4" runat="server">
         <asp:ListItem>Win</asp:ListItem>
         <asp:ListItem>Loss</asp:ListItem>
-    </asp:RadioButtonList>
+    </asp:RadioButtonList><br />
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please choose an option."
                 CssClass="alert alert-danger" ControlToValidate="rblWinLose4"
                 Display="Dynamic">
