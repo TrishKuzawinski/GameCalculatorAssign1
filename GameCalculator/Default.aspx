@@ -69,8 +69,8 @@
             <br />
             Result:
     <asp:RadioButtonList ID="btnlstWinLose2" runat="server">
-        <asp:ListItem>Win</asp:ListItem>
-        <asp:ListItem>Loss</asp:ListItem>
+        <asp:ListItem Value="1">Win</asp:ListItem>
+        <asp:ListItem Value="2">Loss</asp:ListItem>
     </asp:RadioButtonList><br />
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please choose an option."
                 CssClass="alert alert-danger" ControlToValidate="btnlstWinLose2"
