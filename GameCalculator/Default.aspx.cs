@@ -23,61 +23,24 @@ namespace GameCalculator
             Double spectatorsTotal = Convert.ToDouble(txtSpectators1.Text) + Convert.ToDouble(txtSpectators2.Text) + Convert.ToDouble(txtSpectators3.Text) + Convert.ToDouble(txtSpectators4.Text);
             lblTotalAttendance.Text = spectatorsTotal.ToString("");     
 
-            if (btnlstWinLose1.SelectedItem.Text == "Win")
+            if(btnlstWinLose1.SelectedValue == "1")
             {
-                String totalWins = Convert.ToString(btnlstWinLose1.SelectedItem.Text) + Convert.ToString(btnlstWinLose2.SelectedItem.Text) +
-                                   Convert.ToString(btnlstWinLose3.SelectedItem.Text) + Convert.ToString(btnlstWinLose4.SelectedItem.Text);
-                lblWins.Text = totalWins;
+                Double totalWins = 1;
+
+                totalWins++;
+
+                lblWins.Text = totalWins.ToString("");
+
             }
-            else if (btnlstWinLose1.SelectedItem.Text == "Loss")
+            else if (btnlstWinLose1.SelectedValue == "0")
             {
-                String totalLosses = Convert.ToString(btnlstWinLose1.SelectedItem.Text) + Convert.ToString(btnlstWinLose2.SelectedItem.Text) +
-                                     Convert.ToString(btnlstWinLose3.SelectedItem.Text) + Convert.ToString(btnlstWinLose4.SelectedItem.Text);
-                lblLosses.Text = totalLosses;
-            }
+                Double totalLoss = 1;
+
+                totalLoss++;
+
+                lblLosses.Text = totalLoss.ToString("");
 
 
-            if (btnlstWinLose2.SelectedItem.Text == "Win")
-            {
-                String totalWins = Convert.ToString(btnlstWinLose1.SelectedItem.Text) + Convert.ToString(btnlstWinLose2.SelectedItem.Text) +
-                                   Convert.ToString(btnlstWinLose3.SelectedItem.Text) + Convert.ToString(btnlstWinLose4.SelectedItem.Text);
-                lblWins.Text = totalWins;
-            }
-            else if (btnlstWinLose2.SelectedItem.Text == "Loss")
-            {
-                String totalLosses = Convert.ToString(btnlstWinLose1.SelectedItem.Text) + Convert.ToString(btnlstWinLose2.SelectedItem.Text) +
-                                     Convert.ToString(btnlstWinLose3.SelectedItem.Text) + Convert.ToString(btnlstWinLose4.SelectedItem.Text);
-                lblLosses.Text = totalLosses;
-            }
-
-
-
-            if (btnlstWinLose3.SelectedItem.Text == "Win")
-            {
-                String totalWins = Convert.ToString(btnlstWinLose1.SelectedItem.Text) + Convert.ToString(btnlstWinLose2.SelectedItem.Text) +
-                                   Convert.ToString(btnlstWinLose3.SelectedItem.Text) + Convert.ToString(btnlstWinLose4.SelectedItem.Text);
-                lblWins.Text = totalWins;
-            }
-            else if (btnlstWinLose3.SelectedItem.Text == "Loss")
-            {
-                String totalLosses = Convert.ToString(btnlstWinLose1.SelectedItem.Text) + Convert.ToString(btnlstWinLose2.SelectedItem.Text) +
-                                     Convert.ToString(btnlstWinLose3.SelectedItem.Text) + Convert.ToString(btnlstWinLose4.SelectedItem.Text);
-                lblLosses.Text = totalLosses;
-            }
-
-
-
-            if (btnlstWinLose4.SelectedItem.Text == "Win")
-            {
-                String totalWins = Convert.ToString(btnlstWinLose1.SelectedItem.Text) + Convert.ToString(btnlstWinLose2.SelectedItem.Text) +
-                                   Convert.ToString(btnlstWinLose3.SelectedItem.Text) + Convert.ToString(btnlstWinLose4.SelectedItem.Text);
-                lblWins.Text = totalWins;
-            }
-            else if (btnlstWinLose4.SelectedItem.Text == "Loss")
-            {
-                String totalLosses = Convert.ToString(btnlstWinLose1.SelectedItem.Text) + Convert.ToString(btnlstWinLose2.SelectedItem.Text) +
-                                     Convert.ToString(btnlstWinLose3.SelectedItem.Text) + Convert.ToString(btnlstWinLose4.SelectedItem.Text);
-                lblLosses.Text = totalLosses;
             }
 
         }
