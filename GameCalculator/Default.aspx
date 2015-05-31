@@ -14,7 +14,7 @@
             <asp:RadioButtonList ID="rblWinLose1" runat="server">
                 <asp:ListItem>Win</asp:ListItem>
                 <asp:ListItem>Loss</asp:ListItem>
-            </asp:RadioButtonList>
+            </asp:RadioButtonList><br />
                                                <asp:RequiredFieldValidator runat="server" ErrorMessage="Please choose an option."
                 CssClass="alert alert-danger" ControlToValidate="rblWinLose1"
                 Display="Dynamic">
