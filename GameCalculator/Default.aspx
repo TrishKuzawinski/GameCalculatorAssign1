@@ -55,7 +55,7 @@
     </div>
 
     <!---Game 2-->
-    <div class="col-md-3">
+    <div class="col-lg-7">
         <div class="well">
             <h2>Game 2</h2>
             Result:
@@ -64,7 +64,7 @@
         <asp:ListItem>Loss</asp:ListItem>
     </asp:RadioButtonList>
             Scored:
-    <asp:TextBox ID="txtScore2" runat="server"></asp:TextBox><br />
+    <asp:TextBox ID="txtScore2" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please enter a value."
                 CssClass="alert alert-danger" ControlToValidate="txtScore2"
                 Display="Dynamic">
@@ -74,9 +74,9 @@
                 CssClass="alert alert-danger"
                 ControlToValidate="txtScore2"
                 Type="Double" Display="Dynamic">
-            </asp:RangeValidator><br />
+            </asp:RangeValidator><br /><br />
             Allowed:
-    <asp:TextBox ID="txtAllowed2" runat="server"></asp:TextBox><br />
+    <asp:TextBox ID="txtAllowed2" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please enter a value."
                 CssClass="alert alert-danger" ControlToValidate="txtAllowed2"
                 Display="Dynamic">
@@ -86,7 +86,7 @@
                 CssClass="alert alert-danger"
                 ControlToValidate="txtAllowed2"
                 Type="Double" Display="Dynamic">
-            </asp:RangeValidator><br />
+            </asp:RangeValidator><br /><br />
             Spectators:
     <asp:TextBox ID="txtSpectators2" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please enter a value."
@@ -103,7 +103,7 @@
     </div>
 
     <!---Game 3-->
-    <div class="col-md-3">
+    <div class="col-lg-7">
         <div class="well">
             <h2>Game 3</h2>
             Result:
@@ -112,29 +112,29 @@
         <asp:ListItem>Loss</asp:ListItem>
     </asp:RadioButtonList>
             Scored:
-    <asp:TextBox ID="txtScore3" runat="server"></asp:TextBox><br />
+    <asp:TextBox ID="txtScore3" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please enter a value."
                 CssClass="alert alert-danger" ControlToValidate="txtScore3"
                 Display="Dynamic">
-            </asp:RequiredFieldValidator><br />
+            </asp:RequiredFieldValidator>
             <asp:RangeValidator ID="RangeValidator7" runat="server" ErrorMessage="Enter a numeric value greater than zero"
                 MinimumValue="0.01" MaximumValue="99999999"
                 CssClass="alert alert-danger"
                 ControlToValidate="txtScore3"
                 Type="Double" Display="Dynamic">
-            </asp:RangeValidator>
+            </asp:RangeValidator><br /><br />
             Allowed:
-    <asp:TextBox ID="txtAllowed3" runat="server"></asp:TextBox><br />
+    <asp:TextBox ID="txtAllowed3" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please enter a value."
                 CssClass="alert alert-danger" ControlToValidate="txtAllowed3"
                 Display="Dynamic">
-            </asp:RequiredFieldValidator><br />
+            </asp:RequiredFieldValidator>
             <asp:RangeValidator ID="RangeValidator8" runat="server" ErrorMessage="Enter a numeric value greater than zero"
                 MinimumValue="0.01" MaximumValue="99999999"
                 CssClass="alert alert-danger"
                 ControlToValidate="txtAllowed3"
                 Type="Double" Display="Dynamic">
-            </asp:RangeValidator>
+            </asp:RangeValidator><br /><br />
             Spectators:
     <asp:TextBox ID="txtSpectators3" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please enter a value."
@@ -151,7 +151,7 @@
     </div>
 
     <!---Game 4-->
-    <div class="col-md-3">
+    <div class="col-lg-7">
         <div class="well">
             <h2>Game 4</h2>
             Result:
@@ -160,29 +160,29 @@
         <asp:ListItem>Loss</asp:ListItem>
     </asp:RadioButtonList>
             Scored:
-    <asp:TextBox ID="txtScore4" runat="server"></asp:TextBox><br />
+    <asp:TextBox ID="txtScore4" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please enter a value."
                 CssClass="alert alert-danger" ControlToValidate="txtScore4"
                 Display="Dynamic">
-            </asp:RequiredFieldValidator><br />
+            </asp:RequiredFieldValidator>
             <asp:RangeValidator ID="RangeValidator10" runat="server" ErrorMessage="Enter a numeric value greater than zero"
                 MinimumValue="0.01" MaximumValue="99999999"
                 CssClass="alert alert-danger"
                 ControlToValidate="txtScore4"
                 Type="Double" Display="Dynamic">
-            </asp:RangeValidator>
+            </asp:RangeValidator><br /><br />
             Allowed:
-    <asp:TextBox ID="txtAllowed4" runat="server"></asp:TextBox><br />
+    <asp:TextBox ID="txtAllowed4" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please enter a value."
                 CssClass="alert alert-danger" ControlToValidate="txtAllowed4"
                 Display="Dynamic">
-            </asp:RequiredFieldValidator><br />
+            </asp:RequiredFieldValidator>
             <asp:RangeValidator ID="RangeValidator11" runat="server" ErrorMessage="Enter a numeric value greater than zero"
                 MinimumValue="0.01" MaximumValue="99999999"
                 CssClass="alert alert-danger"
                 ControlToValidate="txtAllowed4"
                 Type="Double" Display="Dynamic">
-            </asp:RangeValidator>
+            </asp:RangeValidator><br /><br />
             Spectators:
     <asp:TextBox ID="txtSpectators4" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please enter a value."
