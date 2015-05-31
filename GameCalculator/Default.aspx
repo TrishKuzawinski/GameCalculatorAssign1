@@ -7,7 +7,7 @@
     </div>
 
     <!---Game 1-->
-    <div class="col-sm-3 col-md-3">
+    <div class="col-sm-5 col-md-5">
         <div class="well">
             <h2>Game 1</h2>
             Result:
@@ -56,7 +56,7 @@
     </div>
 
     <!---Game 2-->
-    <div class="col-sm-3 col-md-3">
+    <div class="col-sm-5 col-md-5">
         <div class="well">
             <h2>Game 2</h2>
             Result:
@@ -75,7 +75,7 @@
                 CssClass="alert alert-danger"
                 ControlToValidate="txtScore2"
                 Type="Double" Display="Dynamic">
-            </asp:RangeValidator>
+            </asp:RangeValidator><br />
             Allowed:
     <asp:TextBox ID="txtAllowed2" runat="server"></asp:TextBox><br />
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please enter a value."
@@ -87,7 +87,7 @@
                 CssClass="alert alert-danger"
                 ControlToValidate="txtAllowed2"
                 Type="Double" Display="Dynamic">
-            </asp:RangeValidator>
+            </asp:RangeValidator><br />
             Spectators:
     <asp:TextBox ID="txtSpectators2" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please enter a value."
@@ -104,7 +104,7 @@
     </div>
 
     <!---Game 3-->
-    <div class="col-sm-3 col-md-3">
+    <div class="col-sm-5 col-md-5">
         <div class="well">
             <h2>Game 3</h2>
             Result:
@@ -152,7 +152,7 @@
     </div>
 
     <!---Game 4-->
-    <div class="col-sm-3 col-md-3">
+    <div class="col-sm-5 col-md-5">
         <div class="well">
             <h2>Game 4</h2>
             Result:
