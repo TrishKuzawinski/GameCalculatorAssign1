@@ -152,7 +152,7 @@
     </div>
 
     <!---Game 4-->
-    <div class="col-sm-5 col-md-5">
+    <div class="col-sm-3 col-md-5">
         <div class="well">
             <h2>Game 4</h2>
             Result:
