@@ -15,6 +15,10 @@
                 <asp:ListItem>Win</asp:ListItem>
                 <asp:ListItem>Loss</asp:ListItem>
             </asp:RadioButtonList>
+                       <asp:RequiredFieldValidator runat="server" ErrorMessage="Please choose an option."
+                CssClass="alert alert-danger" ControlToValidate="rblWinLose1"
+                Display="Dynamic">
+            </asp:RequiredFieldValidator>
             Scored:
     <asp:TextBox ID="txtScore1" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please enter a value."
@@ -206,8 +210,8 @@
         </div>
     </div>
 
-    <div style="text-align:center;">
-    <asp:Button class="btn btn-primary" ID="btnSummary" runat="server" Text="Summary" />
-        </div>
+    <div style="text-align: center;">
+        <asp:Button class="btn btn-primary" ID="btnSummary" runat="server" Text="Summary" />
+    </div>
 
 </asp:Content>
