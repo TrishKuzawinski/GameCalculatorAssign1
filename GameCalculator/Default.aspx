@@ -40,7 +40,7 @@
                 Type="Double" Display="Dynamic">
             </asp:RangeValidator><br /><br />
             Spectators:
-    <asp:TextBox ID="txtSpectators1" runat="server"></asp:TextBox><br /><br />
+    <asp:TextBox ID="txtSpectators1" runat="server"></asp:TextBox>
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please enter a value."
                 CssClass="alert alert-danger" ControlToValidate="txtSpectators1"
                 Display="Dynamic">
