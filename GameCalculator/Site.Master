@@ -54,7 +54,7 @@
             <asp:ContentPlaceHolder ID="MainContent" runat="server">
             </asp:ContentPlaceHolder>
             <hr />
-            <footer style="text-align:center;">
+            <footer class="panel-footer" style="text-align:center;">
                 <p>&copy; <%: DateTime.Now.Year %> COMP2007 - Assignment 1 - Game Calculator</p>
             </footer>
         </div>
