@@ -206,6 +206,6 @@
         </div>
     </div>
 
-    <asp:Button class="btn btn-primary" ID="btnSummary" runat="server" Text="Summary" />
+    <asp:Button class="btn btn-primary" ID="btnSummary" runat="server" Text="Summary" style="text-align:center;"/>
 
 </asp:Content>
