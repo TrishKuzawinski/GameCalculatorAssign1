@@ -7,7 +7,8 @@
     </div>
 
     <!---Game 1-->
-    <div class="jumbotron">
+    <div class="col-sm-3 col-md-3">
+        <div class="well">
     <h2>Game 1</h2>
     Result:
     <asp:RadioButtonList ID="rblWinLose1" runat="server">
@@ -51,6 +52,7 @@
         ControlToValidate="txtSpectators1"
         Type="Double" Display="Dynamic">
     </asp:RangeValidator>
+            </div>
         </div>
 
     <!---Game 2-->
