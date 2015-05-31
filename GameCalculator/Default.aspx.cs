@@ -27,13 +27,13 @@ namespace GameCalculator
             {
                 String totalWins = Convert.ToString(btnlstWinLose1.SelectedItem.Text) + Convert.ToString(btnlstWinLose2.SelectedItem.Text) +
                                    Convert.ToString(btnlstWinLose3.SelectedItem.Text) + Convert.ToString(btnlstWinLose4.SelectedItem.Text);
-                lblWins.Text = totalWins;
+                lblWins.Text += totalWins;
             }
             else if (btnlstWinLose1.SelectedItem.Text == "Loss")
             {
                 String totalLosses = Convert.ToString(btnlstWinLose1.SelectedItem.Text) + Convert.ToString(btnlstWinLose2.SelectedItem.Text) +
                                      Convert.ToString(btnlstWinLose3.SelectedItem.Text) + Convert.ToString(btnlstWinLose4.SelectedItem.Text);
-                lblLosses.Text = totalLosses;
+                lblLosses.Text += totalLosses;
             }
 
 
@@ -41,13 +41,13 @@ namespace GameCalculator
             {
                 String totalWins = Convert.ToString(btnlstWinLose1.SelectedItem.Text) + Convert.ToString(btnlstWinLose2.SelectedItem.Text) +
                                    Convert.ToString(btnlstWinLose3.SelectedItem.Text) + Convert.ToString(btnlstWinLose4.SelectedItem.Text);
-                lblWins.Text = totalWins;
+                lblWins.Text += totalWins;
             }
             else if (btnlstWinLose2.SelectedItem.Text == "Loss")
             {
                 String totalLosses = Convert.ToString(btnlstWinLose1.SelectedItem.Text) + Convert.ToString(btnlstWinLose2.SelectedItem.Text) +
                                      Convert.ToString(btnlstWinLose3.SelectedItem.Text) + Convert.ToString(btnlstWinLose4.SelectedItem.Text);
-                lblLosses.Text = totalLosses;
+                lblLosses.Text += totalLosses;
             }
 
 
@@ -56,13 +56,13 @@ namespace GameCalculator
             {
                 String totalWins = Convert.ToString(btnlstWinLose1.SelectedItem.Text) + Convert.ToString(btnlstWinLose2.SelectedItem.Text) +
                                    Convert.ToString(btnlstWinLose3.SelectedItem.Text) + Convert.ToString(btnlstWinLose4.SelectedItem.Text);
-                lblWins.Text = totalWins;
+                lblWins.Text += totalWins;
             }
             else if (btnlstWinLose3.SelectedItem.Text == "Loss")
             {
                 String totalLosses = Convert.ToString(btnlstWinLose1.SelectedItem.Text) + Convert.ToString(btnlstWinLose2.SelectedItem.Text) +
                                      Convert.ToString(btnlstWinLose3.SelectedItem.Text) + Convert.ToString(btnlstWinLose4.SelectedItem.Text);
-                lblLosses.Text = totalLosses;
+                lblLosses.Text += totalLosses;
             }
 
 
@@ -71,13 +71,13 @@ namespace GameCalculator
             {
                 String totalWins = Convert.ToString(btnlstWinLose1.SelectedItem.Text) + Convert.ToString(btnlstWinLose2.SelectedItem.Text) +
                                    Convert.ToString(btnlstWinLose3.SelectedItem.Text) + Convert.ToString(btnlstWinLose4.SelectedItem.Text);
-                lblWins.Text = totalWins;
+                lblWins.Text += totalWins;
             }
             else if (btnlstWinLose4.SelectedItem.Text == "Loss")
             {
                 String totalLosses = Convert.ToString(btnlstWinLose1.SelectedItem.Text) + Convert.ToString(btnlstWinLose2.SelectedItem.Text) +
                                      Convert.ToString(btnlstWinLose3.SelectedItem.Text) + Convert.ToString(btnlstWinLose4.SelectedItem.Text);
-                lblLosses.Text = totalLosses;
+                lblLosses.Text += totalLosses;
             }
 
         }
