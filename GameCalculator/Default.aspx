@@ -12,10 +12,8 @@
             <h2>Game 1</h2>
             <br />
             Result: 
-            <asp:RadioButtonList ID="btnlstWinLose1" runat="server">
-                <asp:ListItem Value="1">Win</asp:ListItem>
-                <asp:ListItem Value="2">Loss</asp:ListItem>
-            </asp:RadioButtonList><br />
+            <asp:RadioButton ID="rbWin" runat="server" Value="1" Text="Win" />
+            <asp:RadioButton ID="rbLoss" Value="2" Text="Loss" runat="server" />
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please choose an option."
                 CssClass="alert alert-danger" ControlToValidate="btnlstWinLose1"
                 Display="Dynamic">
