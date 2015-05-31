@@ -16,8 +16,8 @@ namespace GameCalculator
 
         protected void btnSummary_Click(object sender, EventArgs e)
         {
-            Decimal pointsTotal = Convert.ToDecimal(txtScore1.Text) + Convert.ToDecimal(txtScore2.Text) + Convert.ToDecimal(txtScore3.Text) + Convert.ToDecimal(txtScore4.Text);
-            lblPointsScored.Text = pointsTotal.ToString("c");
+            Double pointsTotal = Convert.ToDouble(txtScore1.Text) + Convert.ToDouble(txtScore2.Text) + Convert.ToDouble (txtScore3.Text) + Convert.ToDouble(txtScore4.Text);
+            lblPointsScored.Text = pointsTotal.ToString("");
         }
     }
 }
