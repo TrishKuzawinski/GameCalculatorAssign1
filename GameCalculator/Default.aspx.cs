@@ -29,7 +29,7 @@ namespace GameCalculator
                                    Convert.ToDouble(btnlstWinLose3.SelectedValue) + Convert.ToDouble(btnlstWinLose4.SelectedValue);
                 lblWins.Text = totalWins.ToString("");
             }
-            else if (btnlstWinLose1.SelectedValue == "0")
+            else if (btnlstWinLose1.SelectedValue == "2")
             {
                 Double totalLosses = Convert.ToDouble(btnlstWinLose1.SelectedValue) + Convert.ToDouble(btnlstWinLose2.SelectedValue) +
                                      Convert.ToDouble(btnlstWinLose3.SelectedValue) + Convert.ToDouble(btnlstWinLose4.SelectedValue);
@@ -43,12 +43,13 @@ namespace GameCalculator
                                    Convert.ToDouble(btnlstWinLose3.SelectedValue) + Convert.ToDouble(btnlstWinLose4.SelectedValue);
                 lblWins.Text = totalWins.ToString("");
             }
-            else if (btnlstWinLose2.SelectedValue == "0")
+            else if (btnlstWinLose2.SelectedValue == "2")
             {
                 Double totalLosses = Convert.ToDouble(btnlstWinLose1.SelectedValue) + Convert.ToDouble(btnlstWinLose2.SelectedValue) +
                                      Convert.ToDouble(btnlstWinLose3.SelectedValue) + Convert.ToDouble(btnlstWinLose4.SelectedValue);
                 lblLosses.Text = totalLosses.ToString("");
             }
+
 
 
             if (btnlstWinLose3.SelectedValue == "1")
@@ -57,12 +58,13 @@ namespace GameCalculator
                                    Convert.ToDouble(btnlstWinLose3.SelectedValue) + Convert.ToDouble(btnlstWinLose4.SelectedValue);
                 lblWins.Text = totalWins.ToString("");
             }
-            else if (btnlstWinLose3.SelectedValue == "0")
+            else if (btnlstWinLose3.SelectedValue == "2")
             {
                 Double totalLosses = Convert.ToDouble(btnlstWinLose1.SelectedValue) + Convert.ToDouble(btnlstWinLose2.SelectedValue) +
                                      Convert.ToDouble(btnlstWinLose3.SelectedValue) + Convert.ToDouble(btnlstWinLose4.SelectedValue);
                 lblLosses.Text = totalLosses.ToString("");
             }
+
 
 
             if (btnlstWinLose4.SelectedValue == "1")
@@ -71,7 +73,7 @@ namespace GameCalculator
                                    Convert.ToDouble(btnlstWinLose3.SelectedValue) + Convert.ToDouble(btnlstWinLose4.SelectedValue);
                 lblWins.Text = totalWins.ToString("");
             }
-            else if (btnlstWinLose4.SelectedValue == "0")
+            else if (btnlstWinLose4.SelectedValue == "2")
             {
                 Double totalLosses = Convert.ToDouble(btnlstWinLose1.SelectedValue) + Convert.ToDouble(btnlstWinLose2.SelectedValue) +
                                      Convert.ToDouble(btnlstWinLose3.SelectedValue) + Convert.ToDouble(btnlstWinLose4.SelectedValue);
