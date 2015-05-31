@@ -7,7 +7,7 @@
     </div>
 
     <!---Game 1-->
-    <div class="col-lg-5">
+    <div class="col-lg-7">
         <div class="well">
             <h2>Game 1</h2>
             Result:
@@ -16,7 +16,7 @@
         <asp:ListItem>Loss</asp:ListItem>
     </asp:RadioButtonList>
             Scored:
-    <asp:TextBox ID="txtScore1" runat="server"></asp:TextBox><br />
+    <asp:TextBox ID="txtScore1" runat="server"></asp:TextBox><br /><br />
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please enter a value."
                 CssClass="alert alert-danger" ControlToValidate="txtScore1"
                 Display="Dynamic">
@@ -28,7 +28,7 @@
                 Type="Double" Display="Dynamic">
             </asp:RangeValidator>
             Allowed:
-    <asp:TextBox ID="txtAllowed1" runat="server"></asp:TextBox><br />
+    <asp:TextBox ID="txtAllowed1" runat="server"></asp:TextBox><br /><br />
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please enter a value."
                 CssClass="alert alert-danger" ControlToValidate="txtAllowed1"
                 Display="Dynamic">
