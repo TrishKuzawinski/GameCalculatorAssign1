@@ -69,7 +69,7 @@
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please enter a value."
                 CssClass="alert alert-danger" ControlToValidate="txtScore2"
                 Display="Dynamic">
-            </asp:RequiredFieldValidator><br />
+            </asp:RequiredFieldValidator>
             <asp:RangeValidator ID="RangeValidator4" runat="server" ErrorMessage="Enter a numeric value greater than zero"
                 MinimumValue="0.01" MaximumValue="99999999"
                 CssClass="alert alert-danger"
@@ -81,7 +81,7 @@
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please enter a value."
                 CssClass="alert alert-danger" ControlToValidate="txtAllowed2"
                 Display="Dynamic">
-            </asp:RequiredFieldValidator><br />
+            </asp:RequiredFieldValidator>
             <asp:RangeValidator ID="RangeValidator5" runat="server" ErrorMessage="Enter a numeric value greater than zero"
                 MinimumValue="0.01" MaximumValue="99999999"
                 CssClass="alert alert-danger"
