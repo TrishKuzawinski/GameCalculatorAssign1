@@ -235,5 +235,12 @@
     </div>
 
     <h3>Results:</h3>
-
+    Wins:
+    Losses:
+    Winning %:
+    Points Scored:
+    Points Allowed:
+    Point Differential:
+    Total Attendance:
+    Average Attendance:
 </asp:Content>
