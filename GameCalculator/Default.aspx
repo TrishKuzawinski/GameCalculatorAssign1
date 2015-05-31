@@ -7,7 +7,7 @@
     </div>
 
     <!---Game 1-->
-    <div class="col-md-3">
+    <div class="col-md-5">
         <div class="well">
             <h2>Game 1</h2>
             Result:
@@ -45,7 +45,7 @@
             <asp:RequiredFieldValidator runat="server" ErrorMessage="Please enter a value."
                 CssClass="alert alert-danger" ControlToValidate="txtSpectators1"
                 Display="Dynamic">
-            </asp:RequiredFieldValidator><br />
+            </asp:RequiredFieldValidator>
             <asp:RangeValidator ID="RangeValidator3" runat="server" ErrorMessage="Enter a numeric value greater than zero"
                 MinimumValue="0.01" MaximumValue="99999999"
                 CssClass="alert alert-danger"
