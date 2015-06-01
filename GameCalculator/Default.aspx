@@ -62,7 +62,7 @@
                 CssClass="alert alert-danger"
                 ControlToValidate="txtSpectators1"
                 Type="Double" Display="Dynamic">
-            </asp:RangeValidator>
+            </asp:RangeValidator><br />
         </div>
     </div>
 
