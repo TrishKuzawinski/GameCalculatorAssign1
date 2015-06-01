@@ -21,82 +21,75 @@ namespace GameCalculator
             Double allowedTotal = Convert.ToDouble(txtAllowed1.Text) + Convert.ToDouble(txtAllowed2.Text) + Convert.ToDouble(txtAllowed3.Text) + Convert.ToDouble(txtAllowed4.Text);
             lblPointsAllowed.Text = allowedTotal.ToString("");
             Double spectatorsTotal = Convert.ToDouble(txtSpectators1.Text) + Convert.ToDouble(txtSpectators2.Text) + Convert.ToDouble(txtSpectators3.Text) + Convert.ToDouble(txtSpectators4.Text);
-            lblTotalAttendance.Text = spectatorsTotal.ToString("");     
+            lblTotalAttendance.Text = spectatorsTotal.ToString("");
 
-            if(btnlstWinLose1.SelectedValue == "1")
+            for (int i = 0; i <= 4; i++)
             {
                 Double totalWins1 = 0;
-
-                totalWins1++;
-
-                lblWins.Text = totalWins1.ToString("");
-
-            }
-            else if (btnlstWinLose1.SelectedValue == "0")
-            {
-                Double totalLoss1 = 0;
-
-                totalLoss1++;
-
-                lblLosses.Text = totalLoss1.ToString("");
-            }
-
-
-            if (btnlstWinLose2.SelectedValue == "1")
-            {
                 Double totalWins2 = 0;
-
-                totalWins2++;
-
-                lblWins.Text = totalWins2.ToString("");
-
-            }
-            else if (btnlstWinLose2.SelectedValue == "0")
-            {
-                Double totalLoss2 = 0;
-
-                totalLoss2++;
-
-                lblLosses.Text = totalLoss2.ToString("");
-            }
-
-            if (btnlstWinLose3.SelectedValue == "1")
-            {
                 Double totalWins3 = 0;
-
-                totalWins3++;
-
-                lblWins.Text = totalWins3.ToString("");
-
-            }
-            else if (btnlstWinLose3.SelectedValue == "0")
-            {
-                Double totalLoss3 = 0;
-
-                totalLoss3++;
-
-                lblLosses.Text = totalLoss3.ToString("");
-            }
-
-
-            if (btnlstWinLose4.SelectedValue == "1")
-            {
                 Double totalWins4 = 0;
 
-                totalWins4++;
+                if (btnlstWinLose1.SelectedValue == "1")
+                {
+                    totalWins1++;
+                }
+                if (btnlstWinLose2.SelectedValue == "1")
+                {
 
-                lblWins.Text = totalWins4.ToString("");
+                    totalWins2++;
 
-            }
-            else if (btnlstWinLose4.SelectedValue == "0")
+                }
+                if (btnlstWinLose3.SelectedValue == "1")
+                {
+
+                    totalWins3++;
+
+                }
+                if (btnlstWinLose3.SelectedValue == "1")
+                {
+
+                    totalWins3++;;
+
+                }
+            
+                lblWins.Text = totalWins1.ToString("") + totalWins2.ToString("") + totalWins3.ToString("") + totalWins4.ToString("");
+        }
+
+
+            for (int i = 0; i <= 4; i++)
             {
-                Double totalLoss4 = 0;
+                Double totalLosses1 = 0;
+                Double totalLosses2 = 0;
+                Double totalLosses3 = 0;
+                Double totalLosses4 = 0;
 
-                totalLoss4++;
+                if (btnlstWinLose1.SelectedValue == "1")
+                {
+                    totalLosses1++;
+                }
+                if (btnlstWinLose2.SelectedValue == "1")
+                {
 
-                lblLosses.Text = totalLoss4.ToString("");
+                    totalLosses2++;
+
+                }
+                if (btnlstWinLose3.SelectedValue == "1")
+                {
+
+                    totalLosses3++;
+
+                }
+                if (btnlstWinLose3.SelectedValue == "1")
+                {
+
+                    totalLosses3++; ;
+
+                }
+
+                lblWins.Text = totalLosses1.ToString("") + totalLosses2.ToString("") + totalLosses3.ToString("") + totalLosses4.ToString("");
             }
-
+            
         }
     }
 }
