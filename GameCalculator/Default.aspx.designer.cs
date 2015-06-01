@@ -31,13 +31,13 @@ namespace GameCalculator {
         protected global::System.Web.UI.WebControls.TextBox txtScore1;
         
         /// <summary>
-        /// RangeValidator1 control.
+        /// scoredRangeValidator1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator RangeValidator1;
+        protected global::System.Web.UI.WebControls.RangeValidator scoredRangeValidator1;
         
         /// <summary>
         /// txtAllowed1 control.
@@ -49,22 +49,22 @@ namespace GameCalculator {
         protected global::System.Web.UI.WebControls.TextBox txtAllowed1;
         
         /// <summary>
-        /// RangeValidator2 control.
+        /// allowedRangeValidator1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator RangeValidator2;
+        protected global::System.Web.UI.WebControls.RangeValidator allowedRangeValidator1;
         
         /// <summary>
-        /// CompareValidator1 control.
+        /// allowedCompareValidator1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CompareValidator CompareValidator1;
+        protected global::System.Web.UI.WebControls.CompareValidator allowedCompareValidator1;
         
         /// <summary>
         /// txtSpectators1 control.
@@ -76,13 +76,13 @@ namespace GameCalculator {
         protected global::System.Web.UI.WebControls.TextBox txtSpectators1;
         
         /// <summary>
-        /// RangeValidator3 control.
+        /// spectatorsRangeValidator1 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator RangeValidator3;
+        protected global::System.Web.UI.WebControls.RangeValidator spectatorsRangeValidator1;
         
         /// <summary>
         /// btnlstWinLose2 control.
@@ -103,13 +103,13 @@ namespace GameCalculator {
         protected global::System.Web.UI.WebControls.TextBox txtScore2;
         
         /// <summary>
-        /// RangeValidator4 control.
+        /// scoredRangeValidator2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator RangeValidator4;
+        protected global::System.Web.UI.WebControls.RangeValidator scoredRangeValidator2;
         
         /// <summary>
         /// txtAllowed2 control.
@@ -121,22 +121,22 @@ namespace GameCalculator {
         protected global::System.Web.UI.WebControls.TextBox txtAllowed2;
         
         /// <summary>
-        /// RangeValidator5 control.
+        /// allowedRangeValidator2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator RangeValidator5;
+        protected global::System.Web.UI.WebControls.RangeValidator allowedRangeValidator2;
         
         /// <summary>
-        /// CompareValidator2 control.
+        /// allowedCompareValidator2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CompareValidator CompareValidator2;
+        protected global::System.Web.UI.WebControls.CompareValidator allowedCompareValidator2;
         
         /// <summary>
         /// txtSpectators2 control.
@@ -148,13 +148,13 @@ namespace GameCalculator {
         protected global::System.Web.UI.WebControls.TextBox txtSpectators2;
         
         /// <summary>
-        /// RangeValidator6 control.
+        /// spectatorsRangeValidator2 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator RangeValidator6;
+        protected global::System.Web.UI.WebControls.RangeValidator spectatorsRangeValidator2;
         
         /// <summary>
         /// btnlstWinLose3 control.
@@ -175,13 +175,13 @@ namespace GameCalculator {
         protected global::System.Web.UI.WebControls.TextBox txtScore3;
         
         /// <summary>
-        /// RangeValidator7 control.
+        /// scoredRangeValidator3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator RangeValidator7;
+        protected global::System.Web.UI.WebControls.RangeValidator scoredRangeValidator3;
         
         /// <summary>
         /// txtAllowed3 control.
@@ -193,22 +193,22 @@ namespace GameCalculator {
         protected global::System.Web.UI.WebControls.TextBox txtAllowed3;
         
         /// <summary>
-        /// RangeValidator8 control.
+        /// allowedRangeValidator3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator RangeValidator8;
+        protected global::System.Web.UI.WebControls.RangeValidator allowedRangeValidator3;
         
         /// <summary>
-        /// CompareValidator3 control.
+        /// allowedCompareValidator3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CompareValidator CompareValidator3;
+        protected global::System.Web.UI.WebControls.CompareValidator allowedCompareValidator3;
         
         /// <summary>
         /// txtSpectators3 control.
@@ -220,13 +220,13 @@ namespace GameCalculator {
         protected global::System.Web.UI.WebControls.TextBox txtSpectators3;
         
         /// <summary>
-        /// RangeValidator9 control.
+        /// spectatorsRangeValidator3 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator RangeValidator9;
+        protected global::System.Web.UI.WebControls.RangeValidator spectatorsRangeValidator3;
         
         /// <summary>
         /// btnlstWinLose4 control.
@@ -247,13 +247,13 @@ namespace GameCalculator {
         protected global::System.Web.UI.WebControls.TextBox txtScore4;
         
         /// <summary>
-        /// RangeValidator10 control.
+        /// scoredRangeValidator4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator RangeValidator10;
+        protected global::System.Web.UI.WebControls.RangeValidator scoredRangeValidator4;
         
         /// <summary>
         /// txtAllowed4 control.
@@ -265,22 +265,22 @@ namespace GameCalculator {
         protected global::System.Web.UI.WebControls.TextBox txtAllowed4;
         
         /// <summary>
-        /// RangeValidator11 control.
+        /// allowedRangeValidator4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator RangeValidator11;
+        protected global::System.Web.UI.WebControls.RangeValidator allowedRangeValidator4;
         
         /// <summary>
-        /// CompareValidator4 control.
+        /// allowedCompareValidator4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.CompareValidator CompareValidator4;
+        protected global::System.Web.UI.WebControls.CompareValidator allowedCompareValidator4;
         
         /// <summary>
         /// txtSpectators4 control.
@@ -292,13 +292,13 @@ namespace GameCalculator {
         protected global::System.Web.UI.WebControls.TextBox txtSpectators4;
         
         /// <summary>
-        /// RangeValidator12 control.
+        /// spectatorsRangeValidator4 control.
         /// </summary>
         /// <remarks>
         /// Auto-generated field.
         /// To modify move field declaration from designer file to code-behind file.
         /// </remarks>
-        protected global::System.Web.UI.WebControls.RangeValidator RangeValidator12;
+        protected global::System.Web.UI.WebControls.RangeValidator spectatorsRangeValidator4;
         
         /// <summary>
         /// btnSummary control.
