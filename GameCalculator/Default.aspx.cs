@@ -22,6 +22,9 @@ namespace GameCalculator
             lblPointsAllowed.Text = allowedTotal.ToString("");
             Double spectatorsTotal = Convert.ToDouble(txtSpectators1.Text) + Convert.ToDouble(txtSpectators2.Text) + Convert.ToDouble(txtSpectators3.Text) + Convert.ToDouble(txtSpectators4.Text);
             lblTotalAttendance.Text = spectatorsTotal.ToString("");
+            Double averageTotal = Convert.ToDouble(txtSpectators1.Text) + Convert.ToDouble(txtSpectators2.Text) + Convert.ToDouble(txtSpectators3.Text) +
+                                  Convert.ToDouble(txtSpectators4.Text) / 4;
+            lblAverageAttendance.Text = averageTotal.ToString("");
 
 
                 Double totalWins1 = 0;
@@ -95,7 +98,7 @@ namespace GameCalculator
             {
                 lblWinning.Text = "1";
             }
-            
+        
         }
     }
 }
