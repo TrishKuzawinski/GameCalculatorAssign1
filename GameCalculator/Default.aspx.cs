@@ -24,6 +24,8 @@ namespace GameCalculator
             lblTotalAttendance.Text = spectatorsTotal.ToString("");
             Double averageTotal = spectatorsTotal / 4;
             lblAverageAttendance.Text = averageTotal.ToString("");
+            Double pointDifferencial = pointsTotal - allowedTotal;
+            lblPointDifferential.Text = pointDifferencial.ToString("");
 
 
                 Double totalWins1 = 0;
