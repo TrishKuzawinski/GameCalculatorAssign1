@@ -57,7 +57,7 @@ namespace GameCalculator
         }
 
 
-            for (int i = 0; i <= 2; i++)
+            for (int totalLosses = 0; totalLosses <= 2; totalLosses++)
             {
                 Double totalLosses1 = 0;
                 Double totalLosses2 = 0;
@@ -80,10 +80,10 @@ namespace GameCalculator
                     totalLosses3++;
 
                 }
-                if (btnlstWinLose3.SelectedValue == "1")
+                if (btnlstWinLose4.SelectedValue == "1")
                 {
 
-                    totalLosses3++; ;
+                    totalLosses4++; ;
 
                 }
 
