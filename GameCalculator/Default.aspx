@@ -47,8 +47,8 @@
                 Type="Double" Display="Dynamic">
             </asp:RangeValidator>
             <asp:CompareValidator ID="CompareValidator1" runat="server" ErrorMessage="For and Against must be different values."
-                CssClass="alert alert-danger" ControlToValidate="txtScore1" 
-                Type="Double" ControlToCompare="txtAllowed1">
+                CssClass="alert alert-danger" ControlToValidate="txtAllowed1" 
+                Type="Double" ControlToCompare="txtScore1">
             </asp:CompareValidator><br />
             <br />
             Spectators:
