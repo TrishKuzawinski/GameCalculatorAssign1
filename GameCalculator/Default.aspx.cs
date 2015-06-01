@@ -57,7 +57,7 @@ namespace GameCalculator
         }
 
 
-            for (int i = 0; i <= 4; i++)
+            for (int i = 0; i <= 2; i++)
             {
                 Double totalLosses1 = 0;
                 Double totalLosses2 = 0;
