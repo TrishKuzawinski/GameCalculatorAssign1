@@ -27,7 +27,7 @@
                 CssClass="alert alert-danger" ControlToValidate="txtScore1"
                 Display="Dynamic">
             </asp:RequiredFieldValidator>
-            <asp:RangeValidator ID="RangeValidator1" runat="server" ErrorMessage="Enter a numeric value greater than zero"
+            <asp:RangeValidator ID="RangeValidator1" runat="server" ErrorMessage="Enter a numeric value greater than zero."
                 MinimumValue="0.01" MaximumValue="99999999"
                 CssClass="alert alert-danger"
                 ControlToValidate="txtScore1"
@@ -40,12 +40,16 @@
                 CssClass="alert alert-danger" ControlToValidate="txtAllowed1"
                 Display="Dynamic">
             </asp:RequiredFieldValidator>
-            <asp:RangeValidator ID="RangeValidator2" runat="server" ErrorMessage="Enter a numeric value greater than zero"
+            <asp:RangeValidator ID="RangeValidator2" runat="server" ErrorMessage="Enter a numeric value greater than zero."
                 MinimumValue="0.01" MaximumValue="99999999"
                 CssClass="alert alert-danger"
                 ControlToValidate="txtAllowed1"
                 Type="Double" Display="Dynamic">
-            </asp:RangeValidator><br />
+            </asp:RangeValidator>
+            <asp:CompareValidator ID="CompareValidator1" runat="server" ErrorMessage="For and Against must be different values."
+                CssClass="alert alert-danger" ControlToValidate="txtScore1" 
+                Type="Double" ControlToCompare="txtAllowed1">
+            </asp:CompareValidator><br />
             <br />
             Spectators:
     <asp:TextBox ID="txtSpectators1" runat="server"></asp:TextBox>
@@ -53,7 +57,7 @@
                 CssClass="alert alert-danger" ControlToValidate="txtSpectators1"
                 Display="Dynamic">
             </asp:RequiredFieldValidator>
-            <asp:RangeValidator ID="RangeValidator3" runat="server" ErrorMessage="Enter a numeric value greater than zero"
+            <asp:RangeValidator ID="RangeValidator3" runat="server" ErrorMessage="Enter a numeric value greater than zero."
                 MinimumValue="0.01" MaximumValue="99999999"
                 CssClass="alert alert-danger"
                 ControlToValidate="txtSpectators1"
@@ -83,7 +87,7 @@
                 CssClass="alert alert-danger" ControlToValidate="txtScore2"
                 Display="Dynamic">
             </asp:RequiredFieldValidator>
-            <asp:RangeValidator ID="RangeValidator4" runat="server" ErrorMessage="Enter a numeric value greater than zero"
+            <asp:RangeValidator ID="RangeValidator4" runat="server" ErrorMessage="Enter a numeric value greater than zero."
                 MinimumValue="0.01" MaximumValue="99999999"
                 CssClass="alert alert-danger"
                 ControlToValidate="txtScore2"
@@ -96,7 +100,7 @@
                 CssClass="alert alert-danger" ControlToValidate="txtAllowed2"
                 Display="Dynamic">
             </asp:RequiredFieldValidator>
-            <asp:RangeValidator ID="RangeValidator5" runat="server" ErrorMessage="Enter a numeric value greater than zero"
+            <asp:RangeValidator ID="RangeValidator5" runat="server" ErrorMessage="Enter a numeric value greater than zero."
                 MinimumValue="0.01" MaximumValue="99999999"
                 CssClass="alert alert-danger"
                 ControlToValidate="txtAllowed2"
@@ -109,7 +113,7 @@
                 CssClass="alert alert-danger" ControlToValidate="txtSpectators2"
                 Display="Dynamic">
             </asp:RequiredFieldValidator>
-            <asp:RangeValidator ID="RangeValidator6" runat="server" ErrorMessage="Enter a numeric value greater than zero"
+            <asp:RangeValidator ID="RangeValidator6" runat="server" ErrorMessage="Enter a numeric value greater than zero."
                 MinimumValue="0.01" MaximumValue="99999999"
                 CssClass="alert alert-danger"
                 ControlToValidate="txtSpectators2"
@@ -139,7 +143,7 @@
                 CssClass="alert alert-danger" ControlToValidate="txtScore3"
                 Display="Dynamic">
             </asp:RequiredFieldValidator>
-            <asp:RangeValidator ID="RangeValidator7" runat="server" ErrorMessage="Enter a numeric value greater than zero"
+            <asp:RangeValidator ID="RangeValidator7" runat="server" ErrorMessage="Enter a numeric value greater than zero."
                 MinimumValue="0.01" MaximumValue="99999999"
                 CssClass="alert alert-danger"
                 ControlToValidate="txtScore3"
@@ -152,7 +156,7 @@
                 CssClass="alert alert-danger" ControlToValidate="txtAllowed3"
                 Display="Dynamic">
             </asp:RequiredFieldValidator>
-            <asp:RangeValidator ID="RangeValidator8" runat="server" ErrorMessage="Enter a numeric value greater than zero"
+            <asp:RangeValidator ID="RangeValidator8" runat="server" ErrorMessage="Enter a numeric value greater than zero."
                 MinimumValue="0.01" MaximumValue="99999999"
                 CssClass="alert alert-danger"
                 ControlToValidate="txtAllowed3"
@@ -165,7 +169,7 @@
                 CssClass="alert alert-danger" ControlToValidate="txtSpectators3"
                 Display="Dynamic">
             </asp:RequiredFieldValidator>
-            <asp:RangeValidator ID="RangeValidator9" runat="server" ErrorMessage="Enter a numeric value greater than zero"
+            <asp:RangeValidator ID="RangeValidator9" runat="server" ErrorMessage="Enter a numeric value greater than zero."
                 MinimumValue="0.01" MaximumValue="99999999"
                 CssClass="alert alert-danger"
                 ControlToValidate="txtSpectators3"
@@ -195,7 +199,7 @@
                 CssClass="alert alert-danger" ControlToValidate="txtScore4"
                 Display="Dynamic">
             </asp:RequiredFieldValidator>
-            <asp:RangeValidator ID="RangeValidator10" runat="server" ErrorMessage="Enter a numeric value greater than zero"
+            <asp:RangeValidator ID="RangeValidator10" runat="server" ErrorMessage="Enter a numeric value greater than zero."
                 MinimumValue="0.01" MaximumValue="99999999"
                 CssClass="alert alert-danger"
                 ControlToValidate="txtScore4"
@@ -208,7 +212,7 @@
                 CssClass="alert alert-danger" ControlToValidate="txtAllowed4"
                 Display="Dynamic">
             </asp:RequiredFieldValidator>
-            <asp:RangeValidator ID="RangeValidator11" runat="server" ErrorMessage="Enter a numeric value greater than zero"
+            <asp:RangeValidator ID="RangeValidator11" runat="server" ErrorMessage="Enter a numeric value greater than zero."
                 MinimumValue="0.01" MaximumValue="99999999"
                 CssClass="alert alert-danger"
                 ControlToValidate="txtAllowed4"
@@ -221,7 +225,7 @@
                 CssClass="alert alert-danger" ControlToValidate="txtSpectators4"
                 Display="Dynamic">
             </asp:RequiredFieldValidator>
-            <asp:RangeValidator ID="RangeValidator12" runat="server" ErrorMessage="Enter a numeric value greater than zero"
+            <asp:RangeValidator ID="RangeValidator12" runat="server" ErrorMessage="Enter a numeric value greater than zero."
                 MinimumValue="0.01" MaximumValue="99999999"
                 CssClass="alert alert-danger"
                 ControlToValidate="txtSpectators4"
