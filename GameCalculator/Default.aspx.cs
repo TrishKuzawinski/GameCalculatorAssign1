@@ -23,6 +23,7 @@ namespace GameCalculator
             Double spectatorsTotal = Convert.ToDouble(txtSpectators1.Text) + Convert.ToDouble(txtSpectators2.Text) + Convert.ToDouble(txtSpectators3.Text) + Convert.ToDouble(txtSpectators4.Text);
             lblTotalAttendance.Text = spectatorsTotal.ToString("");
 
+
                 Double totalWins1 = 0;
                 Double totalWins2 = 0;
                 Double totalWins3 = 0;
@@ -50,8 +51,9 @@ namespace GameCalculator
                     totalWins4++;;
 
                 }
-            
-                lblWins.Text = totalWins1.ToString("") + totalWins2.ToString("") + totalWins3.ToString("") + totalWins4.ToString("");
+
+                Double totalWins = Convert.ToDouble(totalWins1) + Convert.ToDouble(totalWins2) + Convert.ToDouble(totalWins3) + Convert.ToDouble(totalWins4);
+                lblWins.Text = totalWins.ToString("");
 
                 Double totalLosses1 = 0;
                 Double totalLosses2 = 0;
@@ -81,7 +83,8 @@ namespace GameCalculator
 
                 }
 
-                lblLosses.Text = totalLosses1.ToString("") + totalLosses2.ToString("") + totalLosses3.ToString("") + totalLosses4.ToString("");
+                Double totalLosses = Convert.ToDouble(totalLosses1) + Convert.ToDouble(totalLosses2) + Convert.ToDouble(totalLosses3) + Convert.ToDouble(totalLosses4);
+                lblLosses.Text = totalLosses.ToString("");
             
         }
     }
