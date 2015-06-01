@@ -35,25 +35,20 @@ namespace GameCalculator
                 }
                 if (btnlstWinLose2.SelectedValue == "1")
                 {
-
                     totalWins2++;
-
                 }
                 if (btnlstWinLose3.SelectedValue == "1")
                 {
-
                     totalWins3++;
-
                 }
                 if (btnlstWinLose4.SelectedValue == "1")
                 {
-
-                    totalWins4++;;
-
+                    totalWins4++;
                 }
 
                 Double totalWins = Convert.ToDouble(totalWins1) + Convert.ToDouble(totalWins2) + Convert.ToDouble(totalWins3) + Convert.ToDouble(totalWins4);
                 lblWins.Text = totalWins.ToString("");
+
 
                 Double totalLosses1 = 0;
                 Double totalLosses2 = 0;
@@ -66,25 +61,40 @@ namespace GameCalculator
                 }
                 if (btnlstWinLose2.SelectedValue == "0")
                 {
-
                     totalLosses2++;
-
                 }
                 if (btnlstWinLose3.SelectedValue == "0")
                 {
-
                     totalLosses3++;
-
                 }
                 if (btnlstWinLose4.SelectedValue == "0")
                 {
-
-                    totalLosses4++; ;
-
+                    totalLosses4++;
                 }
 
                 Double totalLosses = Convert.ToDouble(totalLosses1) + Convert.ToDouble(totalLosses2) + Convert.ToDouble(totalLosses3) + Convert.ToDouble(totalLosses4);
                 lblLosses.Text = totalLosses.ToString("");
+
+            if (totalWins == 0)
+            {
+                lblWinning.Text = "0";
+            }
+            if (totalWins == 1)
+            {
+                lblWinning.Text = "0.25";
+            }
+            if (totalWins == 2)
+            {
+                lblWinning.Text = "0.5";
+            }
+            if (totalWins == 3)
+            {
+                lblWinning.Text = "0.75";
+            }
+            if (totalWins == 4)
+            {
+                lblWinning.Text = "1";
+            }
             
         }
     }
